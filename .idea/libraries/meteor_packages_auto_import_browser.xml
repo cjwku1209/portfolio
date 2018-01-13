@@ -10,6 +10,10 @@
         <item url="file://$USER_HOME$/.meteor/packages/binary-heap/1.0.10/web.browser/max-heap.js" />
         <item url="file://$USER_HOME$/.meteor/packages/binary-heap/1.0.10/web.browser/min-heap.js" />
         <item url="file://$USER_HOME$/.meteor/packages/binary-heap/1.0.10/web.browser/min-max-heap.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/bioduds_uikit3/1.1.9/web.browser/css/uikit-rtl.css" />
+        <item url="file://$USER_HOME$/.meteor/packages/bioduds_uikit3/1.1.9/web.browser/css/uikit.css" />
+        <item url="file://$USER_HOME$/.meteor/packages/bioduds_uikit3/1.1.9/web.browser/js/uikit-icons.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/bioduds_uikit3/1.1.9/web.browser/js/uikit.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.10/web.browser/preamble.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.10/web.browser/tojs.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.10/web.browser/tokens.js" />
@@ -196,6 +200,10 @@
       <root url="file://$USER_HOME$/.meteor/packages/binary-heap/1.0.10/web.browser/max-heap.js" />
       <root url="file://$USER_HOME$/.meteor/packages/binary-heap/1.0.10/web.browser/min-heap.js" />
       <root url="file://$USER_HOME$/.meteor/packages/binary-heap/1.0.10/web.browser/min-max-heap.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/bioduds_uikit3/1.1.9/web.browser/css/uikit-rtl.css" />
+      <root url="file://$USER_HOME$/.meteor/packages/bioduds_uikit3/1.1.9/web.browser/css/uikit.css" />
+      <root url="file://$USER_HOME$/.meteor/packages/bioduds_uikit3/1.1.9/web.browser/js/uikit-icons.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/bioduds_uikit3/1.1.9/web.browser/js/uikit.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.10/web.browser/preamble.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.10/web.browser/tojs.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.10/web.browser/tokens.js" />
