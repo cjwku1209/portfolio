@@ -1,14 +1,34 @@
-/*footer {*/
-    /*padding: 1% 5%;*/
-    /*text-align: center;*/
-    /*background-color: #373B44;*/
-    /*color: black;*/
-    /*margin-bottom: 20px;*/
-/*}*/
-
 [class="index"] {
     /*transform: scale(0.1);*/
     margin: 24px;
+}
+
+[class="wrapper"] {
+    align-content: center;
+    align: center;
+    margin: 0 auto;
+}
+
+[class="container1"] {
+    float: left;
+    margin: 0 1.5%;
+    width: 30%;
+    padding-left: 100px;
+ }
+
+[class="container2"] {
+    float: right;
+    padding-top: 4px;
+    padding-right: 100px;
+    margin: 0 1.5%;
+    width: 63%;
+}
+
+[class="bottom-title"] {
+    font-family: "Century Gothic";
+    font-size:35px;
+    padding-bottom: 20px;
+    padding-left: 23px;
 }
 
 .carousel-fullscreen .carousel-inner .item {
