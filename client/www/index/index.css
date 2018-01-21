@@ -2,12 +2,13 @@
     /*padding: 1% 5%;*/
     /*text-align: center;*/
     /*background-color: #373B44;*/
-    /*color: white;*/
+    /*color: black;*/
     /*margin-bottom: 20px;*/
 /*}*/
 
 [class="index"] {
-    transform: scale(0.1);
+    /*transform: scale(0.1);*/
+    margin: 24px;
 }
 
 .carousel-fullscreen .carousel-inner .item {
