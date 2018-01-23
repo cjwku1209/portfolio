@@ -3,9 +3,18 @@
 }
 
 [class='header-font'] {
-    font-family: 'Georgia';
-    font-size: 25px;
+     font-family: 'Georgia';
+     font-size: 25px;
+     font-weight: bold;
+     text-decoration: underline;
+}
+
+[class='card-header'] {
+    font-size: 18px;
     font-weight: bold;
-    text-decoration: underline;
+}
+
+[class='card-bold'] {
+    font-weight: bold;
 }
 
