@@ -10,9 +10,18 @@ Template.portfolio.onCreated(function () {
 });
 
 Template.portfolio.onRendered(function () {
+	$('iframe').height($('iframe').width()*9/16);
+	console.log($('iframe').height())
+});
+
+Template.portfolio.events({
 
 });
 
-Template.portfolio.events({});
+Template.portfolio.helpers({
 
-Template.portfolio.helpers({});
+});
+
+
+
+

@@ -18,3 +18,7 @@
     font-weight: bold;
 }
 
+[class="wrap-video"] {
+    width: 100%;
+    object-fit: cover;
+}
