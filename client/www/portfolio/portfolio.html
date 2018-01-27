@@ -1,0 +1,148 @@
+<template name="portfolio">
+    {{>header}}
+    <div class="portfolio">
+        <div class="header-font">
+            Selected Coursework
+        </div>
+        <br/>
+        <div class="ui three column grid">
+            <div class="column">
+                <div class="ui fluid card">
+                    <iframe src="https://www.youtube.com/embed/j9pkQk90E4Y"
+                            width="100%" frameborder="0" allowfullscreen></iframe>
+                    <div class="content">
+                        <div class="content">
+                            <div class="card-header">COMP 3111- Software Engineering</div>
+                            <div class="meta">
+                                <a>LINE CHATBOT for HKUST student</a>
+                            </div>
+                            <div class="description">
+                                <div class="card-bold">
+                                    Main Features:
+                                </div>
+                                <ol>
+                                    <li>Anonymous chat</li>
+                                    <li>Weather Query and push notification</li>
+                                    <li>Bus Query and push notification</li>
+                                    <li>Instant Text Translator</li>
+                                    <li>HKUST society Introduction</li>
+                                </ol>
+                                <span class="card-bold">Framework:</span> Java 8, Java Spring Boot, gradle
+                                <br/>
+                                <span class="card-bold">Libraries:</span> line-sdk
+                                <br/>
+                                <span class="card-bold">API:</span> DialogueFlow, Yandex
+                                <br/>
+                                <span class="card-bold">Continuous integration:</span> JaCoCo
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="ui fluid card">
+                    <iframe src="https://www.youtube.com/embed/7_wMwROAGUw"
+                            width="100%" frameborder="0" allowfullscreen>
+                    </iframe>
+                    <div class="content">
+                        <a class="header">COMP3021- Java Programming</a>
+                        <div class="meta">
+                            <a>Warefare Game</a>
+                        </div>
+                        <div class="description">
+                            <span class="card-bold">Description:</span> A two player game, where the terrain and characters could be imported by txt files. The aim of the game is to kill all the opponent's character.
+                            <br/>
+                            <br/>
+                            <span class="card-bold">Framework:</span> Java 8
+                            <br/>
+                            <span class="card-bold">Libraries:</span> JavaFx, Quartz (multithreading for the waterfall animation)
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="ui fluid card">
+                    <div class="image">
+                        <img src="/img/poker.jpg">
+                    </div>
+                    <div class="content">
+                        <a class="header">COMP 3211- Fundamental of AI</a>
+                        <div class="meta">
+                            <a>Poker rule Induction</a>
+                        </div>
+                        <div class="description">
+                            <span class="card-bold">Primary Approach:</span> Recursive Feature Elimination with Random Forest Classifier Pipeline
+                            <br/>
+                            <span class="card-bold">Idea from Kaggle:</span> <a href="https://www.kaggle.com/c/poker-rule-induction">https://www.kaggle.com/c/poker-rule-induction</a>
+                            <br/>
+                            <span class="card-bold">Description:</span> To build a supervised learning system that could automatically induce the rules of a poker game using machine learning into 10 classification. In simple terms, the system would need to be able to look at a training sets that contains 5 cards of different ranks and suits and classify what kind of poker hands it has and its rank compare with the other poker hands. The following figure below shows our classification rank with it’s corresponding known poker hands.                             <br/>
+                            <a href="https://docs.google.com/document/d/10pWpbARk5GT_TEFe7RWtKAQBcu2c03NgYWQkF8ZqT6Q/edit?usp=sharing">Click here for full Report</a>
+                            <br/>
+                            <br/>
+                            <span class="card-bold">Framework:</span> Python3
+                            <br/>
+                            <span class="card-bold">Libraries:</span> sklearn, pandas, sklearn-deep, imbalence-learn
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-font">
+            Internship/Experience
+        </div>
+        <br/>
+        <div class="ui three column grid">
+            <div class="column">
+                <div class="ui fluid card">
+                    <div class="image">
+                        <img src="/img/tsmc.png">
+                    </div>
+                    <div class="content">
+                        <div class="content">
+                            <div class="card-header">Taiwan Semiconductor Manufacturing Company Limited</div>
+                            <div class="meta">
+                                <a>Big Data Analysis Program Internship</a>
+                            </div>
+                            <div class="description">
+                                <span class="card-bold">
+                                    Task:
+                                </span>
+                                Building a machine learning model that could identify static IR drop hotspot in board design. I was assigned to improve on their current tail model's error. I had used python's sklearn to build clusterwise regression and had successfully reduced the error by 15%.
+                                <br/>
+                                <br/>
+                                <span class="card-bold">Framework:</span> Python3
+                                <br/>
+                                <span class="card-bold">Libraries:</span> sklearn, pandas
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="ui fluid card">
+                    <div class="image">
+                        <img src="/img/myshine.jpg">
+                    </div>
+                    <div class="content">
+                        <a class="header">上暉食品有限公司 (Ongoing)</a>
+                        <div class="meta">
+                            <a>Employed</a>
+                        </div>
+                        <div class="description">
+                            <span class="card-bold">Task:</span> Build an Affiliate Store and Driver App as well as a website.
+                            <br/>
+                            <br/>
+                            <span class="card-bold">Framework:</span> React Native, MongoDB, Firebase, Meteor
+                            <br/>
+                            <span class="card-bold">Libraries:</span> SemanticUI, bootstramp, OR-TOOLS(google)
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
