@@ -1,3 +1,15 @@
 [class="about"] {
     margin: 24px;
 }
+
+[class="header-text"] {
+    font-family: Trajan;
+    font-style: italic;
+    font-size: 20px;
+    color: #3B5998;
+}
+
+[class="main-text"] {
+    font-size: 20px;
+    font-family: Courier New;
+}
