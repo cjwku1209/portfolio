@@ -17,6 +17,9 @@ Template.header.events({
 	'click #id_header_item_about': () => {
 		window.location = '/about';
 	},
+	'click #id_header_item_contact': () => {
+		window.location = '/contact';
+	},
 });
 
 Template.header.helpers({});

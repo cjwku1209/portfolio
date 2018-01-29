@@ -1,0 +1,21 @@
+[class="contact"] {
+    margin: 74px;
+    line-height: 80px;
+}
+
+[class="header-text-contact"] {
+    font-weight: bold;
+    font-family: Georgia;
+    font-size: 28px;
+    color: black;
+}
+
+[class="contact-text"] {
+    font-family: Georgia;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+[class="bold-text"] {
+    font-weight: bold;
+}
